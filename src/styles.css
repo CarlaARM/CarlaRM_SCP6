@@ -1,0 +1,58 @@
+body {
+  display: block;
+  margin: auto;
+  padding: 17px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  font-size: 20px;
+  display: inline-block;
+  text-align: right;
+}
+
+h2 {
+  font-size: 12px;
+  text-align: right;
+  padding: 5px;
+  margin: 0px;
+}
+p {
+  font-size: 12px;
+}
+li {
+  list-style: none;
+  text-align: right;
+  font-size: 10px;
+}
+button {
+  border-radius: 10px;
+  margin: 0;
+  background-color: darkblue;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 16px 24px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+#search-city {
+  margin: 0px;
+  padding: 5px;
+  display: inline-block;
+}
+#search {
+  border-radius: 10px;
+  margin: 0;
+  background-color: darkseagreen;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 16px 24px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+#temp {
+  font-size: 12px;
+}
