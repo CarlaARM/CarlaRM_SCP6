@@ -16,7 +16,6 @@ function citySearch(event) {
   let cityTemp = cityChange.value;
   h1.innerHTML = cityTemp;
 
-  //5
   let apiKey = "2bd326a60dc89a53287e446e819664df";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityTemp}&appid=${apiKey}&units=metric`;
 
@@ -53,7 +52,6 @@ function citySearch(event) {
 let city = document.querySelector("#search-city");
 city.addEventListener("submit", citySearch);
 
-//5.2
 function currentPosition(event) {
   event.preventDefault();
 
