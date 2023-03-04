@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carla SCP6</title>
+    <title>Carla SCP7</title>
     <link rel="stylesheet" href="src/styles.css" />
     <script src="src/index.js"></script>
     <link
@@ -17,42 +17,41 @@
   </head>
   <body>
     <div class="container">
-      <form action="search" id="search-city">
-        <label for="Search">City: </label>
-        <input type="search" name="City" id="city" required />
-        <input type="submit" value="Search" id="search" />
-      </form>
-      <button id="currentBut">Current</button>
-      <div class="container px-4 text-center">
-        <div class="row gx-5">
-          <div class="col">
-            <div class="p-3">
-              <h1></h1>
-              <br />
-              <h2 id="date"></h2>
-              <p>
-                <li>
-                  <container id="temp"> <strong></strong></container>
-                  <container id="cent">°C</container>
-                  Average
-                </li>
-                <li><container id="min"></container>°C Min</li>
-                <li><container id="max"></container>°C Max</li>
-                <li><container id="wind"></container>Km/h Wind</li>
-              </p>
-            </div>
+      <ul>
+        <form action="search" id="search-city">
+          <label for="Search">City: </label>
+          <input type="search" name="City" id="city" required />
+          <input type="submit" value="Search" id="search" />
+        </form>
+        <button id="currentBut">Current</button>
+      </ul>
+      <ul>
+        <h1>City</h1>
+        <br />
+        <h2 id="date">Today is</h2>
+      </ul>
+      <ul>
+        <div class="row">
+          <div class="col-6">
+            <li>
+              <container id="image"><img src="#" alt="image" /></container>
+              <container id="temp"> <strong></strong></container>
+              <container id="cent">°C</container>
+              Average
+            </li>
           </div>
-          <div class="col">
-            <div class="p-3">
-              <br />
-              <br />
-              <br />
-            </div>
+          <div class="col-3">
+            <li><container id="min"></container>°C Min</li>
+            <li><container id="max"></container>°C Max</li>
+            <li><container id="wind"></container>Km/h Wind</li>
           </div>
         </div>
-      </div>
+        <br />
+        <br />
+        <br />
+      </ul>
     </div>
-    <container>
+    <container id="gitHub">
       <a href="https://github.com/CarlaARM/CarlaRM_SCP6">Git Repository</a>
     </container>
   </body>
